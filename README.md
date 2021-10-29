@@ -1,6 +1,12 @@
+# Notice
+
+This was forked from https://github.com/Realank/flutter_datetime_picker since the author is inactive.
+
+Will accept PRs and try to solve issues.
+
 # Flutter Datetime Picker
 
-[(Pub) flutter_datetime_picker](https://pub.dev/packages/flutter_datetime_picker)
+[(Pub) flutter_datetime_picker_bdaya](https://pub.dev/packages/flutter_datetime_picker_bdaya)
 
 A flutter date time picker inspired by [flutter-cupertino-date-picker](https://github.com/wuzhendev/flutter-cupertino-date-picker)
 
