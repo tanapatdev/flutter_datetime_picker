@@ -23,7 +23,7 @@ enum LocaleType {
   vi,
   hy,
   id,
-  is,
+  isl,
   bg,
   eu,
   cat,
@@ -980,7 +980,7 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'am': 'AM',
     'pm': 'PM'
   },
-  LocaleType.is: {
+  LocaleType.isl: {
     'cancel': 'Hætta við',
     'done': 'Klára',
     'today': 'Í dag',
