@@ -1,3 +1,11 @@
+# Changelog
+## [3.0.0] 12-05-2023
+
+- Did some renames to avoid confusion with flutter 3.10's api
+    - Rename `DatePicker` to `DatePickerBdaya`
+    - Rename `DatePickerTheme` to `DatePickerThemeBdaya` 
+
+# Old Changelog
 ## [0.1.0] - initial submit
 ## [0.1.1] - add time picker and date time picker, add i18n
 ## [0.1.2] - fix bugs
