@@ -23,6 +23,7 @@ enum LocaleType {
   vi,
   hy,
   id,
+  isl,
   bg,
   eu,
   cat,
@@ -978,6 +979,42 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'day': ['Երկ', 'Երք', 'Չրք', 'Հնգ', 'Ուր', 'Շբթ', 'Կիր'],
     'am': 'AM',
     'pm': 'PM'
+  },
+  LocaleType.isl: {
+    'cancel': 'Hætta við',
+    'done': 'Klára',
+    'today': 'Í dag',
+    'monthShort': [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'Maí',
+      'Jún',
+      'Júl',
+      'Ágú',
+      'Sep',
+      'Okt',
+      'Nóv',
+      'Des'
+    ],
+    'monthLong': [
+      'Janúar',
+      'Febrúar',
+      'Mars',
+      'Apríl',
+      'Maí',
+      'Júní',
+      'Júlí',
+      'Ágúst',
+      'September',
+      'Október',
+      'Nóvember',
+      'Desember'
+    ],
+    'day': ['Mán', 'Þri', 'Mið', 'Fim', 'Fös', 'Lau', 'Sun'],
+    'am': 'FH',
+    'pm': 'EH'
   },
   LocaleType.id: {
     'cancel': 'Batal',
