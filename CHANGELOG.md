@@ -1,5 +1,5 @@
 # Changelog
-## [3.0.2] 12-05-2023
+## [3.0.2] 09-06-2023
 
 - Added Hungarian Language ([PR #6](https://github.com/Bdaya-Dev/flutter_datetime_picker/pull/6), [PR #7](https://github.com/Bdaya-Dev/flutter_datetime_picker/pull/7))
 
