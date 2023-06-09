@@ -1453,7 +1453,7 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'am': 'לפנה״צ',
     'pm': 'אחה״צ',
   },
-  LocalType.hu: {
+  LocaleType.hu: {
   "cancel": "Mégse",
   "done": "Kész",
   "today": "Ma",
