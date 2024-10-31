@@ -37,7 +37,8 @@ enum LocaleType {
   fi,
   uk,
   he,
-  hu
+  hu,
+  lo
 }
 
 final _i18nModel = <LocaleType, Map<String, Object>>{
@@ -1454,41 +1455,84 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'pm': 'אחה״צ',
   },
   LocaleType.hu: {
-  "cancel": "Mégse",
-  "done": "Kész",
-  "today": "Ma",
-  "monthShort": [
-    "Jan",
-    "Feb",
-    "Már",
-    "Ápr",
-    "Máj",
-    "Jún",
-    "Júl",
-    "Aug",
-    "Szep",
-    "Okt",
-    "Nov",
-    "Dec"
-  ],
-  "monthLong": [
-    "Január",
-    "Február",
-    "Március",
-    "Április",
-    "Május",
-    "Június",
-    "Július",
-    "Augusztus",
-    "Szeptember",
-    "Október",
-    "November",
-    "December"
-  ],
-  "day": ["Hé", "Ke", "Sze", "Cs", "Pé", "Szo", "Va"],
-  "am": "de",
-  "pm": "du"
-}
+    "cancel": "Mégse",
+    "done": "Kész",
+    "today": "Ma",
+    "monthShort": [
+      "Jan",
+      "Feb",
+      "Már",
+      "Ápr",
+      "Máj",
+      "Jún",
+      "Júl",
+      "Aug",
+      "Szep",
+      "Okt",
+      "Nov",
+      "Dec"
+    ],
+    "monthLong": [
+      "Január",
+      "Február",
+      "Március",
+      "Április",
+      "Május",
+      "Június",
+      "Július",
+      "Augusztus",
+      "Szeptember",
+      "Október",
+      "November",
+      "December"
+    ],
+    "day": ["Hé", "Ke", "Sze", "Cs", "Pé", "Szo", "Va"],
+    "am": "de",
+    "pm": "du"
+  },
+  LocaleType.lo: {
+    'cancel': 'ຍົກເຍິດ',
+    'done': 'ສໍາເລັດ',
+    'today': 'ມື້ນີ້',
+    'monthShort': [
+      'ມັງກອນ', // Jan
+      'ກຸມພາ', // Feb
+      'ມີນາ', // Mar
+      'ເມສາ', // Apr
+      'ພະຈິກ', // May
+      'ເມສາ', // Jun
+      'ກໍລະກົດ', // Jul
+      'ສິງຫາ', // Aug
+      'ກັນຍາ', // Sep
+      'ຕຸລາ', // Oct
+      'ເພດສະ', // Nov
+      'ທະວາ', // Dec
+    ],
+    'monthLong': [
+      'ມັງກອນ', // January
+      'ກຸມພາ', // February
+      'ມີນາ', // March
+      'ເມສາ', // April
+      'ພະຈິກ', // May
+      'ເມສາ', // June
+      'ກໍລະກົດ', // July
+      'ສິງຫາ', // August
+      'ກັນຍາ', // September
+      'ຕຸລາ', // October
+      'ເພດສະ', // November
+      'ທະວາ', // December
+    ],
+    'day': [
+      'ຈັນ',
+      'ອັງຄາ',
+      'ປະຈິນ',
+      'ພະຫັດ',
+      'ສຸກ',
+      'ເສົາ'
+    ], // Mon, Tue, Wed, Thu, Fri, Sat, Sun
+    'am': 'ກ່ຽນ', // AM
+    'pm': 'ບ່ອນ', // PM
+  }
 };
 
 /// Get international object for [localeType]
