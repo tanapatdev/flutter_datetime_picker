@@ -1495,32 +1495,32 @@ final _i18nModel = <LocaleType, Map<String, Object>>{
     'done': 'ສໍາເລັດ',
     'today': 'ມື້ນີ້',
     'monthShort': [
-      'ມັງກອນ', // Jan
-      'ກຸມພາ', // Feb
-      'ມີນາ', // Mar
-      'ເມສາ', // Apr
-      'ພະຈິກ', // May
-      'ເມສາ', // Jun
-      'ກໍລະກົດ', // Jul
-      'ສິງຫາ', // Aug
-      'ກັນຍາ', // Sep
-      'ຕຸລາ', // Oct
-      'ເພດສະ', // Nov
-      'ທະວາ', // Dec
+      'ມ.ກ.', // Jan
+      'ກ.ພ.', // Feb
+      'ມ.ນ.', // Mar
+      'ເມ.ສ.', // Apr
+      'ພ.ພ.', // May
+      'ມິ.ຖ.', // Jun
+      'ກ.ລ.', // Jul
+      'ສ.ຫ.', // Aug
+      'ກ.ຍ.', // Sep
+      'ຕ.ລ.', // Oct
+      'ພ.ຈ.', // Nov
+      'ທ.ວ.', // Dec
     ],
     'monthLong': [
       'ມັງກອນ', // January
       'ກຸມພາ', // February
       'ມີນາ', // March
       'ເມສາ', // April
-      'ພະຈິກ', // May
-      'ເມສາ', // June
+      'ພຶດສະພາ', // May
+      'ມິຖຸນາ', // June
       'ກໍລະກົດ', // July
       'ສິງຫາ', // August
       'ກັນຍາ', // September
       'ຕຸລາ', // October
-      'ເພດສະ', // November
-      'ທະວາ', // December
+      'ພະຈິກ', // November
+      'ທັນວາ', // December
     ],
     'day': [
       'ຈັນ',
